@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "debug": "NODE_OPTIONS='--openssl-legacy-provider' next dev -p 5000",
     "start": "webpack serve",
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --watch",
